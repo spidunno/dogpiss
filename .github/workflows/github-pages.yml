@@ -43,7 +43,7 @@ jobs:
         run: bun install --frozen-lockfile
       - name: Build
         # run: bun run build -- --mode "gh-pages"
-        run: vite build --mode "gh-pages" --base=/dogpiss/
+        run: bunx vite build --mode "gh-pages" --base=/dogpiss/
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
