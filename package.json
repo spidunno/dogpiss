@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.16.1",
+    "@types/mapbox__mapbox-sdk": "^0.16.0",
     "mapbox-gl": "^3.10.0",
     "solid-js": "^1.9.5",
     "solid-map-gl": "^1.11.3"
